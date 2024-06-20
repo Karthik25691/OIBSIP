@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.todolist{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(203,108,230,1) 0%, rgba(145,213,227,1) 100%);
+    
+}
+
+.todolist h1{
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 50px;
+}
+
+.taskinput{
+    width: 50vw;
+    height: 10vh;
+    background-color: aliceblue;
+    
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+.taskinput .inp{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin-left: 5%;
+    width: 30vw;
+}
+
+.taskinput .time{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.instruct{
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+}
+
+.add{
+    background-color: aliceblue;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.addbtn{
+    border: 0;
+    background-color: transparent;
+    font-size: 25px;
+    cursor: pointer;
+}
+.tasks{
+    width: 100vw;
+    height: 60vh;
+    
+    margin-top: 5vh;
+}
+.tt{
+    height: 20px;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+.tt p{
+    padding: 0vw 5vw;
+    color: azure;
+}
+.pp{
+    height: 10vh;
+    width: 50vw;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.pp p{
+    margin-left: 30px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+}
+.pp img{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+.tata{
+    margin-bottom: 20px;
+    width: 50vw;
+
+}
+.mid{
+    height: 20vh + 20px;
+    width: 100vw;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.remove{
+    background-color: aliceblue;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remove button img{
+    height: 30px;
+    width: 30px;
+}
+.remove button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+}
